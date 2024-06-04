@@ -1,0 +1,15 @@
+H:\van\API\API_QLSV\lib\bin\Release\net5.0\lib.deps.json
+H:\van\API\API_QLSV\lib\bin\Release\net5.0\lib.runtimeconfig.json
+H:\van\API\API_QLSV\lib\bin\Release\net5.0\lib.runtimeconfig.dev.json
+H:\van\API\API_QLSV\lib\bin\Release\net5.0\lib.dll
+H:\van\API\API_QLSV\lib\bin\Release\net5.0\ref\lib.dll
+H:\van\API\API_QLSV\lib\bin\Release\net5.0\lib.pdb
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.csprojAssemblyReference.cache
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.AssemblyInfoInputs.cache
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.AssemblyInfo.cs
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.csproj.CoreCompileInputs.cache
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.dll
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\ref\lib.dll
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.pdb
+H:\van\API\API_QLSV\lib\obj\Release\net5.0\lib.genruntimeconfig.cache
