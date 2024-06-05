@@ -31,10 +31,9 @@ namespace API_QLSV
         {
             services.AddCors(options => { options.AddPolicy("AllowAllHeaders", builder => { builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); }); });
 
-
-            services.AddTransient<IStudentsRepository, StudentsRepository>();
-            services.AddTransient<IStudentAdapter, StudentAdapter>();
-            services.AddTransient<IStudentsService,StudentsServices>();
+            services.AddScoped<IStudentsRepository, StudentsRepository>();
+            services.AddScoped<IStudentAdapter, StudentAdapter>();
+            services.AddScoped<IStudentsService, StudentsServices>();
 
             services.AddSingleton<ApplicationDbContext>();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Singleton);
