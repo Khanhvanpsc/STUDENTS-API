@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace lib.Entity
 {
-    public class Students
+    public class Students : EntityAuditBase<Guid>
     {
         [Key]
         public int MaSinhVien { get; set; }

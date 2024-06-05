@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\van\\training\\API\\API_QLSV\\lib\\lib.csproj": {}
+    "H:\\van\\training\\API\\API\\API_QLSV\\lib\\lib.csproj": {}
   },
   "projects": {
-    "H:\\van\\training\\API\\API_QLSV\\lib\\lib.csproj": {
+    "H:\\van\\training\\API\\API\\API_QLSV\\lib\\lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\van\\training\\API\\API_QLSV\\lib\\lib.csproj",
+        "projectUniqueName": "H:\\van\\training\\API\\API\\API_QLSV\\lib\\lib.csproj",
         "projectName": "lib",
-        "projectPath": "H:\\van\\training\\API\\API_QLSV\\lib\\lib.csproj",
+        "projectPath": "H:\\van\\training\\API\\API\\API_QLSV\\lib\\lib.csproj",
         "packagesPath": "C:\\Users\\ADMIN1\\.nuget\\packages\\",
-        "outputPath": "H:\\van\\training\\API\\API_QLSV\\lib\\obj\\",
+        "outputPath": "H:\\van\\training\\API\\API\\API_QLSV\\lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN1\\AppData\\Roaming\\NuGet\\NuGet.Config",

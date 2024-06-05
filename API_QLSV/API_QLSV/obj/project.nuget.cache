@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iizklfv95Dghz3PF4EhSUlAt0AL4bR5xUOp4vPaucYBAEZcuhUHnOIUAFTDyRdCCDynA7Pe//pxm5jQFTsi/QQ==",
+  "dgSpecHash": "8LTDmIFTP8iCg/VDQ6tYmgMUviR54V3Gynl5AF6CicsWUPWBcK2keklIA6SbJXza3FxXOumSLVhOcztx7SX7tg==",
   "success": true,
-  "projectFilePath": "H:\\van\\training\\API\\API_QLSV\\API_QLSV\\API_QLSV.csproj",
+  "projectFilePath": "H:\\van\\training\\API\\API\\API_QLSV\\API_QLSV\\API_QLSV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ADMIN1\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
