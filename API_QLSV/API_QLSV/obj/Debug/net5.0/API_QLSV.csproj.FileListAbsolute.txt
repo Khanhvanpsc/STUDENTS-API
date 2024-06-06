@@ -208,3 +208,8 @@ H:\van\training\API\API\API_QLSV\API_QLSV\obj\Debug\net5.0\API_QLSV.dll
 H:\van\training\API\API\API_QLSV\API_QLSV\obj\Debug\net5.0\ref\API_QLSV.dll
 H:\van\training\API\API\API_QLSV\API_QLSV\obj\Debug\net5.0\API_QLSV.pdb
 H:\van\training\API\API\API_QLSV\API_QLSV\obj\Debug\net5.0\API_QLSV.genruntimeconfig.cache
+H:\van\training\API\API\API_QLSV\API_QLSV\bin\Debug\net5.0\Microsoft.OpenApi.dll
+H:\van\training\API\API\API_QLSV\API_QLSV\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\van\training\API\API\API_QLSV\API_QLSV\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\van\training\API\API\API_QLSV\API_QLSV\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\van\training\API\API\API_QLSV\API_QLSV\obj\Debug\net5.0\API_QLSV.MvcApplicationPartsAssemblyInfo.cs
