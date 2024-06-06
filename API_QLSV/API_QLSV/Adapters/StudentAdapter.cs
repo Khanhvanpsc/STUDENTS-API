@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace API_QLSV.Adapters
 {
+    public interface IStudentAdapter
+    {
+        Students Adapt(StudentsModel student);
+    }
     public class StudentAdapter : IStudentAdapter
     {
         public Students Adapt(StudentsModel student)

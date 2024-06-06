@@ -29,5 +29,7 @@ namespace lib.data
         IEnumerable<T> GetMany(Expression<Func<T, bool>> where);
 
         bool Any(Expression<Func<T, bool>> where);
+
+        int Complete();
     }
 }

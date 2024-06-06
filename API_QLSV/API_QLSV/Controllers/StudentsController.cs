@@ -1,4 +1,5 @@
-﻿using API_QLSV.Models;
+﻿using API_QLSV.Adapters;
+using API_QLSV.Models;
 using lib.Entity;
 using lib.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -17,10 +18,12 @@ namespace API_QLSV.Controllers.api
     {
 
         private IStudentsService StudentsService;
+        private readonly IStudentAdapter _studentAdapter;
 
-        public StudentsController(IStudentsService StudentsService)
+        public StudentsController(IStudentsService StudentsService, IStudentAdapter studentAdapter)
         {
             this.StudentsService = StudentsService;
+            _studentAdapter = studentAdapter;
         }
         [HttpGet("get-Student")]
         public async Task<ActionResult> GetStudents()
@@ -78,16 +81,16 @@ namespace API_QLSV.Controllers.api
         {
             try
             {
-                Students st = new Students();
-                st.MaSinhVien = Student.MaSinhVien;
-                st.HoLot = Student.HoLot;
-                st.Ten = Student.Ten;
-                st.NgaySinh = Student.NgaySinh;
-                st.GioiTinh = Student.GioiTinh;
-                st.DanToc = Student.DanToc;
-                st.TonGiao = Student.TonGiao;
-                st.TrangThai = Student.TrangThai;
-                StudentsService.InsertStudents(st);
+                //Students st = new Students();
+                //st.MaSinhVien = Student.MaSinhVien;
+                //st.HoLot = Student.HoLot;
+                //st.Ten = Student.Ten;
+                //st.NgaySinh = Student.NgaySinh;
+                //st.GioiTinh = Student.GioiTinh;
+                //st.DanToc = Student.DanToc;
+                //st.TonGiao = Student.TonGiao;
+                //st.TrangThai = Student.TrangThai;
+                StudentsService.InsertStudents(_studentAdapter.Adapt(Student));
                 return Ok(new { status = true, message = "success" });
             }
             catch (Exception ex)

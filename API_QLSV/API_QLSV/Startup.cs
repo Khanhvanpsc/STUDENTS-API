@@ -94,6 +94,7 @@ namespace API_QLSV
                 c.SchemaFilter<SchemaFilter>();
             });
 
+            services.AddScoped<IStudentAdapter, StudentAdapter>();
             services.AddScoped<IStudentsRepository, StudentsRepository>();
             services.AddScoped<IStudentAdapter, StudentAdapter>();
             services.AddScoped<IStudentsService, StudentsServices>();

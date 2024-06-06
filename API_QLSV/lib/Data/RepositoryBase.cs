@@ -110,5 +110,10 @@ namespace lib.data
         {
             return dbset.Where(where).Any<T>();
         }
+
+        public int Complete()
+        {
+            return _dbcontext.SaveChanges();
+        }
     }
 }
