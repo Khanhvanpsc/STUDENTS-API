@@ -25,6 +25,11 @@ namespace lib.data
             dbset.Add(entity);
         }
 
+        public virtual async Task AddAsync(T entity)
+        {
+          await  dbset.AddAsync(entity);
+        }
+
         public virtual void Update(T entity)
         {
             dbset.Attach(entity);

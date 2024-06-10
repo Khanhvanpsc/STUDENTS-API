@@ -1,5 +1,6 @@
 ﻿using lib.Entity;
 using lib.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -58,6 +59,11 @@ namespace lib.Services
         {
             StudentsRepository.Delete(student);
             Save();
+        }
+
+        public async Task<Students> GetStudentById(int Id)
+        {
+           return await dbContext.Students.Where(p => p.MaSinhVien == Id).FirstOrDefaultAsync();
         }
     }
 }

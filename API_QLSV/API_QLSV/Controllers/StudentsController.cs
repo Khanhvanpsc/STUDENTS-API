@@ -23,7 +23,7 @@ namespace API_QLSV.Controllers.api
         public StudentsController(IStudentsService StudentsService, IStudentAdapter studentAdapter)
         {
             this.StudentsService = StudentsService;
-            _studentAdapter = studentAdapter;
+            this._studentAdapter = studentAdapter;
         }
         [HttpGet("get-Student")]
         public async Task<ActionResult> GetStudents()
