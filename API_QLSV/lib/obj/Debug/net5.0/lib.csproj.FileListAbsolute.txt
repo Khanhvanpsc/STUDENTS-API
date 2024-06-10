@@ -41,4 +41,3 @@ H:\van\training\API\API\API_QLSV\lib\obj\Debug\net5.0\lib.dll
 H:\van\training\API\API\API_QLSV\lib\obj\Debug\net5.0\ref\lib.dll
 H:\van\training\API\API\API_QLSV\lib\obj\Debug\net5.0\lib.pdb
 H:\van\training\API\API\API_QLSV\lib\obj\Debug\net5.0\lib.genruntimeconfig.cache
-H:\van\training\API\API\API_QLSV\lib\obj\Debug\net5.0\lib.csproj.AssemblyReference.cache
